@@ -1,1 +1,165 @@
 /* You can add global styles to this file, and also import other style files */
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #0074D9;
+    /*background-color: #5E4485;*/
+    color:#FFF;
+     padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+
+  }
+
+  .navbar-brand{
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 5px;
+  }
+
+  .navbar-inverse .navbar-nav .active a/*, 
+  .navbar-inverse .navbar-nav .active a:focus,
+  .navbar-inverse .navbar-nav .active a:hover*/ {
+    color: #FFF;
+    background-color: #0074D9;
+  }
+
+  .navbar-inverse .navbar-nav li a{
+    color: #D5D5D5;
+  }
+
+  .carousel-caption{
+    top:50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+  }
+
+  .btn{
+    font-size: 18px;
+    color: #FFF; 
+    padding: 12px 22px;
+    background: #0074D9;
+    /*background-color: #0074D9;*/
+    border: 2px solid #FFF;
+  }
+
+  .container{
+    margin:4% auto ;
+  }
+
+  #icon{
+    max-width: 50px;
+    margin: 1% auto;
+  }
+
+  .circular{
+    position: absolute;
+    top: 20%;
+    height: 125px;
+    width: 125px;
+    background-color:#0074D9;;
+    border-radius: 50%;
+    
+
+  }
+
+  .circular img{
+    
+    display:block;
+    margin:auto;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    
+  }
+
+  .sticky{
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 10;
+    width: 100%;
+  }
+
+  .shadow-line{
+    
+    box-shadow: 0 0 50px rgb(15, 14, 14,.5);
+  }
+
+  .shadow-semi-circular{
+    box-shadow: 0 5px 5px -6px rgb(15, 14, 14,.5);
+  }
+
+  #circular-icon{
+    max-width: 100px;
+    padding: 3%;
+    margin: 1% auto;
+    border-radius: 5%;
+    background: white;
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.47), 10px 10px 5px -6px rgba(0,0,0,0.47);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.47), 10px 10px 5px -6px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.47), 10px 10px 5px -6px rgba(0,0,0,0.47);
+  }
+
+  #circular-icon img{
+    display:block;
+    margin:auto;
+  }
+
+  #profile_pic{
+    border-radius: 5%;
+  }
+  
+  #slider-layout{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  footer{
+    width: 100%;
+    background-color: #0074D9;
+    padding: 3%;
+    color: white;
+  }
+
+  .justify{
+    text-align: justify; 
+    text-justify: inter-word;
+  }
+
+  .fa{
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+  }
+
+  .fa:hover{
+    color:#D5D5D5;
+    text-decoration:none;
+  }
+
+  
+
+  @media(max-width: 900px){
+    .fa{
+      font-size: 20px;
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 600px){
+    .carousel-caption{
+      display: none;
+    }
+
+    #icon{
+      max-width: 150px;
+    }
+
+    h4{
+      font-size: 1.5em;
+    }
+  }
+

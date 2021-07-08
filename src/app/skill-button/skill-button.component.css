@@ -1,0 +1,21 @@
+.round{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+    box-shadow:  5px 3px 6px 1px rgba(0,0,0,0.36);    
+    overflow: hidden;
+    margin-left: 55px;
+    text-align: center;
+}
+
+.pic{
+    flex: auto;
+    width: 100%;
+    height: 100%;
+}
+
+

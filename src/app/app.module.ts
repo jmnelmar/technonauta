@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LandingComponent } from './landing/landing.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer/footer.component';
+import { SkillButtonComponent } from './skill-button/skill-button.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LandingComponent,
+    HeaderComponent,
+    FooterComponent,
+    SkillButtonComponent
   ],
   imports: [
     BrowserModule,
