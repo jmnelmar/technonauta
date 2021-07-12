@@ -5,7 +5,7 @@
           
           <div class="col-md-10">
             <h2><strong>Nelson  Jimenez</strong></h2>  
-            <div class=" justify">
+            <div class="justify">
               
               <p>Creative thinker and experienced software engineer with experience in bring up ideas to life from inception to deployment in production, accustomed to solving problems on the go at parallel with the develop </p>
               <p>Studied at the University of El Salvador the most prestigious University of El Salvador and well known for the quality of their graduates, graduate in 2011 and make my own way to my first job at Avianca member of star alliance the same year, got me bachelor degree in software engineer at 2012, landing at the United States of America at 2017 and got a Job at Infosys at 2018 where I have been working to today.</p>
@@ -32,24 +32,7 @@
   <div class="row" >
     
     <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
-      <h4><a href="#hidden" data-toggle="collapse"><img src="assets/images/avianca.jpeg" class="img-responsive"></a></h4>
-    </div>
-
-    <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
-      <div >
-        <p>
-          Software engineer/Technology Analyst at Avianca 2011-2017
-          Avianca a star alliance member is one of the biggest airlines in the south and central America with operation around the globe, my work in the company as part of the IT had to work with the different teams of the business as revenue, agreements, ops, refunds, sap in recollecting features/enhancements and making into functionalities to the actual systems at Avianca, as well I had worked in the major projects of the company like remaking existing applications in old technologies and bringing back to life in new technologies, such as API rest new frameworks of dot Net, Oracle, spring, Hibernate, javascript,jquery
-        </p>
-      </div>
-    </div>
-
-  </div>
-  <div class="container margin-50"></div>
-  <div class="row" >
-    
-    <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000">
-      <div >
+      <div class="justify">
         <p>
           Infosys - Technology Especialyst 2018 - Actual work 
             Infosys Technologies Limited (NASDAQ: INFY) is a multinational information technology services company based in Bangalore, India. Infosys is one of the largest IT companies in India with 127,779 employees including subsidiaries (as of December 2010), spread across 65 offices and 59 development centers in India, China, Australia, the Czech Republic, Costa Rica, Poland, England, Canada, United States, and Japan, they are one of the leaders in IT and consulting.
@@ -63,9 +46,76 @@
     </div>
 
   </div>
+  
+  <div class="container margin-50"></div>
 
+  <div class="row" >
+    
+    <div class="col-md-4" data-aos="fade-right" data-aos-duration="2000">
+      <h4><a href="#hidden" data-toggle="collapse"><img src="assets/images/avianca.jpeg" class="img-responsive"></a></h4>
+    </div>
+
+    <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
+      <div class="justify">
+        <p>
+          Software engineer/Technology Analyst at Avianca 2011-2017
+          Avianca a star alliance member is one of the biggest airlines in the south and central America with operation around the globe, my work in the company as part of the IT had to work with the different teams of the business as revenue, agreements, ops, refunds, sap in recollecting features/enhancements and making into functionalities to the actual systems at Avianca, as well I had worked in the major projects of the company like remaking existing applications in old technologies and bringing back to life in new technologies, such as API rest new frameworks of dot Net, Oracle, spring, Hibernate, javascript,jquery
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  
+  
 </div>
 
+<div class="container text-center">
+  <h2>Skills Sets</h2>
+  <div class="row">
+    <div class="col-lg-4">
+      <h4>RTS - Refund Tracking system API</h4>
+    </div>
+    <div class="col-lg-4">
+      <skill-button [picPath]="articlePictures[4].path" [description]="C" ></skill-button>
+      <skill-button [picPath]="articlePictures[12].path" [description]="C" ></skill-button>
+    </div>
+    <div class="col-lg-4">
+      <skill-button [picPath]="articlePictures[16].path" [description]="C" ></skill-button>
+      <skill-button [picPath]="articlePictures[17].path" [description]="C" ></skill-button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-4">
+      <h4>TIS - Tax Information Service</h4>
+    </div>
+    
+    <div class="col-lg-4">
+      <skill-button [picPath]="articlePictures[7].path" [description]="C" ></skill-button>
+      <skill-button [picPath]="articlePictures[8].path" [description]="C" ></skill-button>
+    </div>
+
+    <div class="col-lg-4">
+      <skill-button [picPath]="articlePictures[12].path" [description]="C" ></skill-button>
+      <skill-button [picPath]="articlePictures[0].path" [description]="C" ></skill-button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-4">
+      <a href="http://monstermatchunity.s3-website-us-west-1.amazonaws.com/"><h4>Game in development with Unity 2D</h4></a>
+    </div>
+    <div class="col-lg-4">
+      <skill-button [picPath]="articlePictures[4].path" [description]="C" ></skill-button>
+      <skill-button [picPath]="articlePictures[18].path" [description]="C" ></skill-button>
+    </div>
+    <div class="col-lg-4">
+      <skill-button [picPath]="articlePictures[19].path" [description]="C" ></skill-button>
+      <skill-button [picPath]="articlePictures[20].path" [description]="C" ></skill-button>
+    </div>
+  </div>
+</div>
   
 
  
@@ -107,6 +157,7 @@ End Slider-->
  
 
   <!--Skill icons-->
+  <!--
   <div class="container text-center">
     <h2>Skills Sets</h2>
     <div class="row">
@@ -159,6 +210,7 @@ End Slider-->
         <skill-button [picPath]="pic.path" [description]="pic.desc"></skill-button>
         <!--<img [src]="pic.path" id="circular-icon">-->
         <!--<h4>{{pic.desc}}</h4>-->
+        <!--
       </div>
       
     </div>
@@ -168,10 +220,10 @@ End Slider-->
         <img [src]="pic.path" id="circular-icon">
         <h4>{{pic.desc}}</h4>
       </div>-->
-      
+    <!--  
     </div>
   </div>
-
+-->
 
 <!--Skill Icons end-->
 
