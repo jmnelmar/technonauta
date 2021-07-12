@@ -30,6 +30,11 @@ export class LandingComponent implements OnInit {
     {path:'assets/images/python.png',id:14,desc:'desc'},
     {path:'assets/images/splunk.png',id:15,desc:'desc'},
     {path:'assets/images/spring_boot.jpg',id:16,desc:'desc'},
+    {path:'assets/images/rest_api.png',id:17,desc:'desc'},
+    {path:'assets/images/visual_studio.png',id:18,desc:'desc'},
+    {path:'assets/images/unity.png',id:19,desc:'desc'},
+    {path:'assets/images/krita.png',id:20,desc:'desc'},
+    {path:'assets/images/photoshop.png',id:21,desc:'desc'},
   ];
 
  /* articlePictures2 = [

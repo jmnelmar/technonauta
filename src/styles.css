@@ -43,6 +43,15 @@
     border: 2px solid #FFF;
   }
 
+  .btn-round{
+    font-size: 18px;
+    color: #FFF; 
+    padding: 12px 22px;
+    background: #0074D9;
+    /*background-color: #0074D9;*/
+    border: 2px solid #FFF;
+  }
+
   .container{
     margin:4% auto ;
   }
@@ -140,6 +149,16 @@
     text-decoration:none;
   }
 
+  .margin-50{
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  body{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+  }
   
 
   @media(max-width: 900px){
