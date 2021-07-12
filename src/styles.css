@@ -158,6 +158,26 @@
   body{
     font-family: 'Roboto', sans-serif;
     font-size: large;
+    color:black;
+    
+  }
+
+  .div-2c{
+    background: white;
+    border-radius: 3%;
+    width: 1200px;
+    height: 600px;
+    padding-top: 8%;
+    opacity: 0.8;
+    
+  }
+
+  body { 
+    background: url(assets/images/deep-blue-2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   
 
